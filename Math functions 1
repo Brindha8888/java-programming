@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+Scanner sc=new Scanner (System.in);
+float n1=sc.nextFloat();
+int n2=sc.nextInt();
+int n3 = sc.nextInt();
+int n4 = sc.nextInt();
+System.out.println((int)Math.floor(n1));
+System.out.println((int)Math.ceil(n1));
+
+System.out.println((int)Math.sqrt(n2));
+System .out.println((int)Math.pow(n3,n4));
+
+    }
+}
